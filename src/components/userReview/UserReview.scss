@@ -1,0 +1,62 @@
+.userReview {
+  .userInfo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 15px 0px;
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .nameNationalityContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+
+      span:first-child {
+        font-size: 14px;
+        font-weight: 500;
+        font-weight: #222;
+      }
+      div {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        span {
+          font-size: 14px;
+          color: gray;
+          font-weight: #444;
+        }
+      }
+    }
+  }
+  p {
+    padding: 15px 0;
+    color: gray;
+    line-height: 1.4;
+    letter-spacing: 0.05px;
+    font-weight: 300;
+  }
+  .helpful {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+    span {
+      font-size: 16px;
+      color: #222;
+    }
+    img {
+      width: 13px;
+      height: 13px;
+      cursor: pointer;
+    }
+  }
+  hr {
+    height: 0;
+    border: 0.5 solid lightgray;
+    margin-bottom: 40px;
+  }
+}

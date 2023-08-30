@@ -1,0 +1,32 @@
+.swiper-button-prev,
+.swiper-button-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color: gray;
+
+  &:first-child {
+    width: 5px;
+    size: 10px;
+    font-size: 10px;
+  }
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 15px;
+  color: black;
+  font-weight: 600;
+}
+
+.onlyImageChildren {
+  .swiper {
+    width: 500px;
+  }
+
+  img {
+    max-width: 500px;
+  }
+}
